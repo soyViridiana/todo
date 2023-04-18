@@ -1,0 +1,222 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+    body{
+      text-align: center;
+      padding-top: 40px;
+  }
+  .casita{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background: pink;
+    margin: auto;
+  }
+  .sol{
+  width: 120px;
+  height:120px;
+  background:yellow;
+    border-radius:100%;
+    position:absolute;
+    top:30px;
+    left:50px;
+    box-shadow:0 0 30px white;  
+  }
+  .base{
+    width: 800px;
+    height: 30px;
+    background: maroon;
+    position: absolute;
+    bottom: 0px;
+    box-shadow: 0 0 30px white;
+  }
+  .casa{
+    width: 400px;
+    height: 250px;
+    background: rgb(175, 148, 250);
+    position: absolute;
+    bottom: 30px;
+    left: 100px;
+    box-shadow: 0 0 30px white;
+  }
+  .techo{
+    width: 450px;
+    height: 30px;
+    background: rgb(99, 60, 207);
+    position: absolute;
+    bottom: 280px;
+    left: 75px;
+    box-shadow: 0 0 30px rgb(31, 29, 29);
+  }
+  .chi1{
+    width: 50px;
+    height: 100px;
+    background: rgb(6, 48, 236);
+    position: absolute;
+    bottom: 310px;
+    left: 380px;
+    box-shadow: 0 0 30px rgb(226, 6, 142);
+  }
+  .chi2{
+    width: 70px;
+    height: 20px;
+    background: rgb(28, 5, 92);
+    position: absolute;
+    bottom: 410px;
+    left: 370px;
+    box-shadow: 0 0 30px rgb(236, 4, 82);
+  }
+  .puerta{
+    width: 50px;
+    height: 90px;
+    background: rgb(6, 4, 10);
+    position: absolute;
+    top: 380px;
+    left: 120px;
+    display: inline-block;
+  }
+  .mani{
+    width: 8px;
+    height: 8px;
+    background: rgb(233, 10, 10);
+    color: white;
+    position: absolute;
+    top: 420px;
+    left: 150px;
+    border-radius: 90% 90% 90% 90%;
+    display: inline-block;
+  }
+  .v1{
+    width: 90px;
+    height: 90px;
+    background: rgb(6, 231, 247);
+    position: absolute;
+    top: 270px;
+    left: 320px;
+    display: inline-block;
+    box-shadow: 0 0 100px rgb(12, 12, 12);
+  }
+  .barra{
+    width: 90px;
+    height: 15px;
+    background: rgb(226, 12, 12);
+    position: absolute;
+    top: 305px;
+    left: 320px;
+  }
+  .barra2{
+    width: 15px;
+    height: 90px;
+    background: rgb(226, 12, 12);
+    position: absolute;
+    top:270px;
+    left: 358px;
+  }
+  .tronco{
+    width: 50px;
+    height: 200px;
+    background: maroon;
+    position: absolute;
+    top: 300px;
+    left: 650px;
+    box-shadow:0 0 30px rgb(29, 26, 26);  
+    display: inline-block;
+    }
+    .arbol{
+      width: 200px;
+      height: 200px;
+      border-radius: 100%;
+      background: rgb(45, 112, 24);
+      position: absolute;
+      top: 125px;
+      left: 575px;
+      box-shadow:0 0 30px rgb(44, 44, 44);  
+      display: inline-block;
+    }
+   .linea1{
+    width: 40px;
+    height: 5px;
+    background: rgb(255, 238, 0);
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    transform: rotate(0deg);
+   }
+   .linea2{
+    width: 40px;
+    height: 5px;
+    background: rgb(255, 238, 0);
+    position: absolute;
+    top: 170px;
+    left: 85px;
+    transform: rotate(90deg);
+   }
+   .linea3{
+    width: 40px;
+    height: 5px;
+    background: rgb(255, 238, 0);
+    position: absolute;
+    top: 90px;
+    left: 170px;
+    transform: rotate(0deg);
+   }
+   .linea4{
+    width: 40px;
+    height: 5px;
+    background: rgb(255, 238, 0);
+    position: absolute;
+    top: 20px;
+    left: 90px;
+    transform: rotate(90deg);
+   }
+   .linea5{
+    width: 40px;
+    height: 5px;
+    background: rgb(255, 238, 0);
+    position: absolute;
+    top: 140px;
+    left: 140px;
+    transform: rotate(30deg);
+   }
+   .linea6{
+    width: 40px;
+    height: 5px;
+    background: rgb(255, 238, 0);
+    position: absolute;
+    top: 156px;
+    left: 14px;
+    transform: rotate(119deg);
+}
+ .linea7{
+  width: 40px;
+  height: 5px;
+  background: rgb(255, 238, 0);
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  transform: rotate(35deg);
+ }  
+ .linea8{
+  width: 40px;
+  height: 5px;
+  background: rgb(255, 238, 0);
+  position: absolute;
+  top: 40px;
+  left: 155px;
+  transform: rotate(120deg);
+ }
+ a{
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  margin:10px auto;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  background:black ;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 0px 0px 10px red;
+}

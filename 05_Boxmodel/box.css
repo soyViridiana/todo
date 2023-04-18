@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(238, 24, 156);
+    color: black;
+}
+div{
+    width: 250px;
+    height: 250px;
+    background: blue;
+    padding: 20px;
+    margin: 10px;
+    display: inline-block;
+    border: 5px solid yellow;
+}
+#caja2{
+    margin: 10px 20px 20px;
+    background: yellowgreen;
+    border: 5px dashed black;
+}
+#caja3{
+    box-shadow: 0px 0px 20px aqua;
+    border-radius: 50% 100% 50%;
+}
+#caja4{
+    background: violet;
+    box-shadow: 50px 50px 50px rgb(167, 12, 38);
+}
+#caja5{
+    background-color: red;
+    border-radius: 25% 5% 100%;
+}
+#caja6{
+    margin: 10px 30px 15px 35px;
+    background: rgb(17, 17, 17);
+    color: aquamarine;
+    box-shadow: 0px 0px 20px 10px;
+    border-radius: 20% 30%;
+}
+#caja7{
+    margin: 15px 30px 45px 35px;
+    background: rebeccapurple;
+    border: 20px double black;
+}
+#caja8{
+    margin: 20px 60px 30px 70px;
+    background: rgb(16, 119, 33);
+    border: 20px inset black;
+}
+#caja9{
+    box-shadow: 0px 0px 100px rgb(214, 206, 206);
+    border-radius: 100% 100% 100%;
+}
+#caja10{
+    box-shadow: 50px 50px 100px rgb(10, 4, 65);
+    border-radius: 100% 500% 100%;
+}
+a{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin:10px auto;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    background:black ;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px red;
+}

@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    color: rgb(121, 20, 126);
+    background: black;
+    background: linear-gradient(90deg, rgb(49, 187, 237), rgb(69, 223, 94));
+}
+.ejemplo1{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: row;
+}
+.ejemplo2{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ejemplo3{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+flex-direction: column;
+}
+.ejemplo4{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.ejemplo5{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.ejemplo6{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ejemplo7{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.ejemplo8{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    flex-flow: column-reverse wrap;
+}
+.ejemplo9{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    justify-content: flex-start ;
+}
+.ejemplo10{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    justify-content: flex-end;
+}
+.ejemplo11{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+   display: flex;
+    justify-content: center;
+}
+.ejemplo12{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    justify-content: space-between;
+}
+.ejemplo13{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    justify-content: space-between;
+}
+.ejemplo14{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ejemplo15{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    align-items: flex-start ;
+}
+.ejemplo16{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    align-items: flex-end ;
+}
+.ejemplo17{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    align-items:center ;
+}
+.ejemplo18{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    align-items: stretch;
+}
+.ejemplo18{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    align-items: stretch;
+}
+.ejemplo19{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    display: flex;
+    align-items: baseline;
+}
+.divA{
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+    justify-content:center ;
+    align-items: center;
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background: rgb(218, 66, 218);  
+    text-align: center;
+}
+
+#divPadre {
+    position: relative;
+    top: 50%;
+    
+    width: 500px;
+    height: 500px;
+    background: linen;
+    margin: 50px auto;
+    border: 2px dashed black;
+  }
+  #divHijo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background-color:rgb(218, 66, 218);
+  }
+  a{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    margin:10px auto;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    background:rgb(10, 253, 22) ;
+    color: rgb(5, 5, 5);
+    border: 2px solid white;
+    box-shadow: 0px 0px 10px rgb(46, 43, 211);
+  }
